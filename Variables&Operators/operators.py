@@ -50,5 +50,5 @@ print("LOGICAL OPERATORS")
 print(10 >= 15 or 15 <= 5) # False
 print(10 <= 15 or 15 >= 5) # True
 print(10 <= 15 and 15 >= 5) #True
-print(10 <= 15 and 15 <= 5) #False
-print(not(True)) # False
+print(10 <= 15 <= 5) #False
+print(not True) # False
