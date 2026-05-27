@@ -16,3 +16,8 @@ print(str)
 
 shortStr = str[0 : 15]
 print(shortStr)
+
+print(str[ : 10]) # It means print(str[0 : 10])
+
+print(str[0 : ]) # It means print(str[0 : len])
+
