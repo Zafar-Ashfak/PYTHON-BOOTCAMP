@@ -21,3 +21,10 @@ print(str[ : 10]) # It means print(str[0 : 10])
 
 print(str[0 : ]) # It means print(str[0 : len])
 
+print(str[-14 : -2])
+
+
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+print(alphabet[0 : 20 : 3]) # 0 to 20 = abcdefghijklmnopqrst -> jump by 3 = adgjmps
+
