@@ -1,29 +1,40 @@
-name = "   hello i am a senior software  engineer    "
+str = "   hello i am a senior software  engineer    "
 
-print("Length of the string is:", len(name))
+print("Length of the string is:", len(str))
 
-print(name.startswith("Za")) # True
+print(str.startswith("Za")) # True
 
-print(name.endswith("aq")) # True
+print(str.endswith("aq")) # True
 
-print(name.capitalize()) # Capitalize the first char of the string
+print(str.capitalize()) # Capitalize the first char of the string
 
-print(name.lower()) # Converts to lowercase
+print(str.lower()) # Converts to lowercase
 
-print(name.upper()) # Converts to uppercase
+print(str.upper()) # Converts to uppercase
 
-print(name.title())  # Capitalizes each word
+print(str.title())  # Capitalizes each word
 
-print("Letter 'a' occurs", name.count("a"), "times in the given string")
+print("Letter 'a' occurs", str.count("a"), "times in the given string")
 
-print(name.strip()) # Removes spaces from both ends
+print(str.strip()) # Removes spaces from both ends
 
-print(name.lstrip()) # Removes spaces from left side
+print(str.lstrip()) # Removes spaces from left side
 
-print(name.rstrip()) # Removes spaces from right side
+print(str.rstrip()) # Removes spaces from right side
 
-print("Letter 'i' occurs at index", name.find('i'), "from end") # Find the char from end
+print("Letter 'i' occurs at index", str.find('i'), "from end") # Find the char from end
 
-print(name.replace('senior', 'junior'))
+print(str.replace('senior', 'junior'))
 
-print(name.split()) # Splits string into list
+print(str.split()) # Splits string into list
+
+
+chars = "abcdefg"
+
+print(chars.isalpha()) # True
+
+print(chars.isalnum()) # True -> Checks letters/numbers
+
+print(chars.isdigit()) # False
+
+print(chars.isspace()) # Checks only spaces
