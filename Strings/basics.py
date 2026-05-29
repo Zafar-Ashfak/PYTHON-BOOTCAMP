@@ -28,3 +28,8 @@ alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 print(alphabet[0 : 20 : 3]) # 0 to 20 = abcdefghijklmnopqrst -> jump by 3 = adgjmps
 
+counting = "0123456789"
+print(counting[0 : 10 : 2]) # 0 to 10 = 0123456789 -> jump by 2 = 02468
+
+
+
