@@ -21,3 +21,9 @@ print(name.strip()) # Removes spaces from both ends
 print(name.lstrip()) # Removes spaces from left side
 
 print(name.rstrip()) # Removes spaces from right side
+
+print("Letter 'i' occurs at index", name.find('i'), "from end") # Find the char from end
+
+print(name.replace('senior', 'junior'))
+
+print(name.split()) # Splits string into list
