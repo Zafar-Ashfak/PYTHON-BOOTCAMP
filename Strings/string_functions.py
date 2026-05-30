@@ -37,4 +37,4 @@ print(chars.isalnum()) # True -> Checks letters/numbers
 
 print(chars.isdigit()) # False
 
-print(chars.isspace()) # Checks only spaces
+print(chars.isspace()) # False ->  Checks only spaces
