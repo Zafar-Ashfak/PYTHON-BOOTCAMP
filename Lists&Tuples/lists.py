@@ -85,4 +85,3 @@ myTuple = tuple(nums)
 print("Converting to tuple from list")
 print(myTuple)
 print(type(myTuple))
-
