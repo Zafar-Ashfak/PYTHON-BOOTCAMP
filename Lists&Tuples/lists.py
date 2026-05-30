@@ -80,3 +80,9 @@ print(nums[ : 4])
 print(nums[3 : ])
 print(nums[0 : 6 : 2])
 
+# Converting list to tuple
+myTuple = tuple(nums)
+print("Converting to tuple from list")
+print(myTuple)
+print(type(myTuple))
+
