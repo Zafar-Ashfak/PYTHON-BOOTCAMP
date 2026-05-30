@@ -8,10 +8,13 @@ marksOfStudents.append(s2)
 
 s3 = int(input("Enter your marks: "))
 marksOfStudents.append(s3)
+
 s4 = int(input("Enter your marks: "))
 marksOfStudents.append(s4)
+
 s5 = int(input("Enter your marks: "))
 marksOfStudents.append(s5)
+
 s6 = int(input("Enter your marks: "))
 marksOfStudents.append(s6)
 
