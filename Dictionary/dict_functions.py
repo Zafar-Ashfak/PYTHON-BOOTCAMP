@@ -12,6 +12,10 @@ print(student, "\n")
 # <<<<<<<<<<<<<<<<< DICTIONARY FUNCTIONS >>>>>>>>>>>>>>>>>>>>
 
 # 1. get() method
+
+# print(student.get("email")) # Returns None if key doesn't exist in the dictionary
+# print(student["email"],"\n") # Returns an error if key doesn't exist in the dictionary
+
 print(f"Student Id: {student.get('id')}")
 print(f"Name: {student.get('name')}")
 print(f"Roll: {student.get('roll')}")
