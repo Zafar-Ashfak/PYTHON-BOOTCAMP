@@ -1,22 +1,28 @@
 # Program to take input from the user and display all the unique numbers (once)
-
-num1 = int(input("Enter the 1st number: "))
-num2 = int(input("Enter the 2nd number: "))
-num3 = int(input("Enter the 3rd number: "))
-num4 = int(input("Enter the 4th number: "))
-num5 = int(input("Enter the 5th number: "))
-num6 = int(input("Enter the 6th number: "))
-num7 = int(input("Enter the 7th number: "))
-num8 = int(input("Enter the 8th number: "))
-
 numsSet = set()
-numsSet.add(num1)
-numsSet.add(num2)
-numsSet.add(num3)
-numsSet.add(num4)
-numsSet.add(num5)
-numsSet.add(num6)
-numsSet.add(num7)
-numsSet.add(num8)
+
+num = int(input("Enter the 1st number: "))
+numsSet.add(num)
+
+num = int(input("Enter the 2nd number: "))
+numsSet.add(num)
+
+num = int(input("Enter the 3rd number: "))
+numsSet.add(num)
+
+num = int(input("Enter the 4th number: "))
+numsSet.add(num)
+
+num = int(input("Enter the 5th number: "))
+numsSet.add(num)
+
+num = int(input("Enter the 6th number: "))
+numsSet.add(num)
+
+num = int(input("Enter the 7th number: "))
+numsSet.add(num)
+
+num = int(input("Enter the 8th number: "))
+numsSet.add(num)
 
 print(f"Display only unique values: {numsSet}")
