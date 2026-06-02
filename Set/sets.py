@@ -55,4 +55,20 @@ print(f"{set1.intersection(set2)}\n") # Output -> { 1, 8, 12 }
 
 # 10. difference() method -> Returns elements present in the first set but not the second.
 print(f"Difference of set1 and set2 is: {set1.difference(set2)}") # Output -> { 2, 4 }
-print(f"Difference of set2 and set1 is: {set2.difference(set1)}") # Output -> { 3, 6, 15 }
+print(f"Difference of set2 and set1 is: {set2.difference(set1)}\n") # Output -> { 3, 6, 15 }
+
+# 11. symmetric_difference() method -> Returns elements that are in either set but not both.
+print(f"Symmetric difference of set1 and set2 is: {set1.symmetric_difference(set2)}\n") # Output -> { 2, 3, 4, 6, 15 }
+
+# 12. issubset() method -> Checks if one set is a subset of another
+print({1, 4, 8}.issubset(set1)) # True
+print({1, 9, 15}.issubset(set2) , "\n") # False
+
+# 13. issuperset() method -> Checks if one set contains another set
+print(set1.issuperset({1, 2, 8})) # True
+print(set1.issuperset({2, 3, 12, 17}), "\n") # False
+
+# 14. len() method -> returns the length of the set
+print(f"Length of the set1 is: {len(set1)}")
+print(f"Length of the set2 is: {len(set2)}\n")
+
