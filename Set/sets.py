@@ -30,3 +30,11 @@ print(f"After removing 5 from the set: {nums}\n")
 # 4. discard() method -> removes an element if present in the set
 nums.discard(17)
 print(f"After discarding 17 from the set: {nums}\n")
+
+# 5. pop() method -> Removes and returns a random element.
+print(f"Popped value: {nums.pop()}\n")
+print(nums)
+
+# 6. clear() method -> Removes all elements
+nums.clear()
+print(f"{nums}\n") # Output -> set()
