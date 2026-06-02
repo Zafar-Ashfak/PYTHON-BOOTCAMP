@@ -37,8 +37,22 @@ print(f"After popping the random element: {nums}")
 
 # 6. copy() method -> Creates a shallow copy of the set
 new_nums = nums.copy()
-print(f"Copied set: {new_nums}")
+print(f"Copied set: {new_nums}\n")
 
-# . clear() method -> Removes all elements
-# nums.clear()
-# print(f"{nums}\n") # Output -> set()
+
+# 7. clear() method -> Removes all elements
+nums.clear()
+print(f"{nums}\n") # Output -> set()
+
+# 8. union() method ->  Combines two sets and returns all unique elements from both sets
+set1 = { 1, 2, 4, 8, 12 }
+set2 = { 1, 3, 6, 8, 12, 15}
+
+print(f"{set1.union(set2)}\n") # Output -> { 1, 2, 3, 4, 6, 8, 12, 15 }
+
+# 9. intersection method -> Returns common elements.
+print(f"{set1.intersection(set2)}\n") # Output -> { 1, 8, 12 }
+
+# 10. difference() method -> Returns elements present in the first set but not the second.
+print(f"Difference of set1 and set2 is: {set1.difference(set2)}") # Output -> { 2, 4 }
+print(f"Difference of set2 and set1 is: {set2.difference(set1)}") # Output -> { 3, 6, 15 }
