@@ -33,8 +33,12 @@ print(f"After discarding 17 from the set: {nums}\n")
 
 # 5. pop() method -> Removes and returns a random element.
 print(f"Popped value: {nums.pop()}\n")
-print(nums)
+print(f"After popping the random element: {nums}")
 
-# 6. clear() method -> Removes all elements
-nums.clear()
-print(f"{nums}\n") # Output -> set()
+# 6. copy() method -> Creates a shallow copy of the set
+new_nums = nums.copy()
+print(f"Copied set: {new_nums}")
+
+# . clear() method -> Removes all elements
+# nums.clear()
+# print(f"{nums}\n") # Output -> set()
