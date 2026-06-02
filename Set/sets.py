@@ -1,7 +1,7 @@
 # nums = {} # dict
 
 # We can store different types of data in the set
-mySet = {2, 5, 8, "Zafar", 4.6, 9.342, True, False, None} # set
+mySet = {2, 5, 8, "Zafar", 4.6, 9.342, True, False, None, '8'} # set
 
 print(mySet)
 print(f"{type(mySet)}\n")
