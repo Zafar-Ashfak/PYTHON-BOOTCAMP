@@ -18,5 +18,7 @@ elif operator == '%':
         print("Cannot divide by zero")
     else:
         print(f"{num1} % {num2} = {num1 % num2} (remainder)")
+elif operator == '**':
+    print(f"{num1} ^ {num2} = {num1 ** num2}")
 else:
     print("Invalid operator, please try again!")
