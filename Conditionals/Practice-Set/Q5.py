@@ -1,11 +1,11 @@
 animals = ["Cat", "Dog", "Elephant", "Horse", "Lion", "Tiger", "Zebra", "Giraffe", "Monkey"]
 
-user_input = input("Enter an animal name: ")
+name = input("Enter an animal name: ")
 
-user_input =user_input.capitalize()
+name = name.capitalize()
 
-if animals.__contains__(user_input):
-    print(f"{user_input} contains in the list")
+if name in animals:
+    print(f"Yes, {name} is in the list")
 else:
-    print(f"{user_input} doesn't contains in the list")
+    print(f"No, {name} is not in the list")
 

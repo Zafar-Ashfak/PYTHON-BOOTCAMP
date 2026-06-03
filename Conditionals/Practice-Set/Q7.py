@@ -1,6 +1,6 @@
-user_input = input("Enter a post: ")
+post = input("Enter a post: ")
 
-if user_input.__contains__("Harry"):
+if "harry" in post.lower():
     print("Yes, user is talking about Harry")
 else:
     print("No, user is not talking about Harry")
