@@ -21,7 +21,6 @@ print(fruits)
 
 
 nums = [1, 4, 7, 2, 9, 3, 8, 5, 6]
-
 # 4. extend function
 nums.extend([10, 13, 12, 11]) # adds all elements from another iterable
 print(nums)
