@@ -1,0 +1,1 @@
+# Write a function count_vowels(text) that returns the number of vowels in a string.
