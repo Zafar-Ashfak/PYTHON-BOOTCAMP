@@ -1,6 +1,6 @@
 n = int(input("Enter a natural number: "))
 
-i = 0
+i = 1
 sum1 = 0
 
 # Prints first n natural number using while loop

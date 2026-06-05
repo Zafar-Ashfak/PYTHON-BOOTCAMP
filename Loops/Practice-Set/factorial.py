@@ -1,7 +1,7 @@
 print("Program to print factorial of a number n")
 n = int(input("Enter a number: "))
-factorial = 1
+fac = 1
 for i in range (1, n + 1):
-    factorial *= i
+    fac *= i
 
-print(f"Factorial of {n} is: {factorial}")
+print(f"Factorial of {n} is: {fac}")
