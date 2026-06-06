@@ -1,4 +1,6 @@
 # Write a function count_vowels(text) that returns the number of vowels in a string.
+
+# Simple Approach
 def count_vowels(text):
     count = 0
     text = text.lower()
@@ -9,6 +11,18 @@ def count_vowels(text):
     return count
 
 
+# Optimized Approach
+def count_vowels_opt(text):
+    count = 0
+    text = text.lower()
+    for i in text:
+        if i in "aeiou":
+          count += 1
+
+    return count
+
+
 user_input = input("Enter a text: ")
-res = count_vowels(user_input)
+# res = count_vowels(user_input)
+res = count_vowels_opt(user_input)
 print(f"Total number of vowels in the text is: {res}")
