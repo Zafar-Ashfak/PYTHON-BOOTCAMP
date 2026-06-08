@@ -1,4 +1,4 @@
-# Write a program to calculate the sum of first n natural numbers
+# Write a program to calculate the sum of first n natural numbers using recursion
 def sum_of_nums(n):
     s = 0
     # Base Case

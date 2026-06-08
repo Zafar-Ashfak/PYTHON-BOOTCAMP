@@ -1,4 +1,4 @@
-# Write a program to print numbers from 1 to n
+# Write a program to print numbers from 1 to n using recursion
 def nums(n):
     # Base Case
     if n == 0:
