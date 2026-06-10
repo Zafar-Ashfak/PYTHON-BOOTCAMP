@@ -1,6 +1,5 @@
 # Write a program to calculate the sum of all the elements in the list
 def elements_sum(nums, n):
-    s = 0
     # Base Case
     if n == 0:
         return nums[0]
