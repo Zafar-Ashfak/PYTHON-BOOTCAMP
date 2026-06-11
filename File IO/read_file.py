@@ -8,7 +8,7 @@
 """
 
 # file = open("story.txt", "r")
-file = open("story.txt") # we can skip "r" mode for read file
+file = open("file.txt") # we can skip "r" mode for read file
 data = file.read()
 print(data)
 file.close()
