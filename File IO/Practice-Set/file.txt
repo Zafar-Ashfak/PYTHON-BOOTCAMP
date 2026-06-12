@@ -1,2 +1,7 @@
-Python is a high-level, interpreted, general-purpose programming language that is easy to learn and read.
-It was created by Guido van Rossum and first released in 1991.
+Python is a high-level, interpreted, and general-purpose programming language known for its simple and
+readable syntax. Created by Guido van Rossum in 1991, Python is widely used for web development, data
+science, artificial intelligence, automation, game development, and software applications. It is
+beginner-friendly because its code is easy to write and understand, making it one of the most popular
+programming languages in the world. Python is also open-source, portable across different operating
+systems, and supported by a large collection of libraries and frameworks that help developers build
+powerful applications efficiently.
