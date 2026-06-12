@@ -1,5 +1,5 @@
 # Write a program to count the total number of words in file
-with open("file.txt", "r") as file:
+with open("python.txt", "r") as file:
     data = file.read()
     words = data.split() # splits string into list
     count = 0

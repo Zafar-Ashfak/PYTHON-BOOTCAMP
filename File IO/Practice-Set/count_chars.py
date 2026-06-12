@@ -1,5 +1,5 @@
 # Write a program to count the total number of characters in file
-with open("file.txt", "r") as file:
+with open("python.txt", "r") as file:
     data = file.read()
     count = 0
     for char in data:
