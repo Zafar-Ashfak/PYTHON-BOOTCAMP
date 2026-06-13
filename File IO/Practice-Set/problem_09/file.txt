@@ -1,0 +1,15 @@
+There was a little rabbit who lived in a forest. The rabbit loved to run through the green grass every
+morning. One day, the rabbit found a shiny key near a tree. The curious rabbit picked up the key and
+continued its journey. Soon, the rabbit discovered an old wooden box hidden behind some bushes. The rabbit
+used the key to open the box and found a map inside. Excited by the discovery, the rabbit followed the map
+and reached a beautiful garden filled with carrots. The rabbit happily ate some carrots and returned home.
+From that day on, the rabbit remembered that adventures can begin in the most unexpected places.
+
+After Removing all occurrences of word 'rabbit'
+
+there was a little  who lived in a forest. the  loved to run through the green grass every
+morning. one day, the  found a shiny key near a tree. the curious  picked up the key and
+continued its journey. soon, the  discovered an old wooden box hidden behind some bushes. the 
+used the key to open the box and found a map inside. excited by the discovery, the  followed the map
+and reached a beautiful garden filled with carrots. the  happily ate some carrots and returned home.
+from that day on, the  remembered that adventures can begin in the most unexpected places.
