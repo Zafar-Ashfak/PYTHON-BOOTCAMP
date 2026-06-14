@@ -17,5 +17,7 @@ class Employee:
 e1 = Employee("Md Ashfak Alam", "Java Developer", 2700000)
 e1.display_info()
 
+print()
+
 e2 = Employee("Rahbar Hussain", "Python Full Stack Developer", 3400000)
 e2.display_info()
