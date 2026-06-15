@@ -1,12 +1,12 @@
 import math
 
-a = 10
-b = 4
+a = 4
+b = 2
 
-pow = math.pow(a, b)
-print(pow)
+power = int(math.pow(a, b))
+print(power)
 
-print(math.sqrt(36))
+print(int(math.sqrt(a)))
 
 print(math.ceil(20.70))
 print(math.floor(20.70))
