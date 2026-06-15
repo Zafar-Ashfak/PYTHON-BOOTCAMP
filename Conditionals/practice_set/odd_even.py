@@ -1,3 +1,4 @@
+# Program to check if a given number is even or odd
 num = int(input("Enter a natural number: "))
 
 if num % 2 == 0:

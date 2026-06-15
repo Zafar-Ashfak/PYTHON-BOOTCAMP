@@ -1,4 +1,4 @@
-year = int(input("Enter a year: "))
+year = int(input("Enter a year here: "))
 
 a = year % 4 == 0
 b = year % 100 != 0

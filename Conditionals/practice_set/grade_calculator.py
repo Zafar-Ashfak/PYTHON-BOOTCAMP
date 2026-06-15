@@ -1,4 +1,4 @@
-marks = int(input("Enter your marks: "))
+marks = int(input("Enter your marks here: "))
 if marks > 100:
     print("Invalid marks")
 elif 90 <= marks <= 100:
