@@ -1,6 +1,6 @@
 import math
 
-a = 4
+a = 9
 b = 2
 
 power = int(math.pow(a, b))
