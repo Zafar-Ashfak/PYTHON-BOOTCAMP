@@ -20,7 +20,7 @@ class Dog:
 
 
 # Creating objects of class Dog
-d1 = Dog("Siberian Huskey", 13)
+d1 = Dog("Siberian Husky", 13)
 print(f"Species: {d1.species}")
 d1.display_info()
 d1.bark()
