@@ -4,7 +4,7 @@ class Employee:
     def __init__(self, name):
         self.name = name
 
-    @staticmethod
+    @staticmethod # decorator
     def greet():
         print(f"Welcome to {Employee.company}", end= " ")
 
