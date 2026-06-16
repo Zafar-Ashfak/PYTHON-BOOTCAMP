@@ -12,7 +12,7 @@ def count_vowels(text):
 
 
 # Optimized Approach
-def count_vowels_opt(text):
+def opt_count_vowels(text):
     count = 0
     text = text.lower()
     for i in text:
@@ -24,5 +24,5 @@ def count_vowels_opt(text):
 
 user_input = input("Enter a text: ")
 # res = count_vowels(user_input)
-res = count_vowels_opt(user_input)
+res = opt_count_vowels(user_input)
 print(f"Total number of vowels in the text is: {res}")

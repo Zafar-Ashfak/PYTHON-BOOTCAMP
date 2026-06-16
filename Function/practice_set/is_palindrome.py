@@ -1,4 +1,4 @@
-# Write a function palindrome(n) that checks if a number is a palindrome or not.
+# Write a function palindrome(n) that checks if a given number is palindrome or not.
 
 def palindrome(n):
     org = n

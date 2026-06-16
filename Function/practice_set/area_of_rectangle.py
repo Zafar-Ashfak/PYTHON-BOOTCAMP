@@ -1,4 +1,5 @@
 # Write a function rectangle_area(length, breadth) that returns the area of a rectangle.
+
 print("Program to print area of the rectangle")
 def rectangle_area(l, b):
     return l * b

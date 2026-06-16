@@ -1,6 +1,6 @@
-# Write a program to convert a decimal number to binary using recursion
+# Write a program to convert a decimal number into binary number using recursion
 
-# using str method
+# using str() method
 def dec_to_bin(dec):
 
     # Base Case

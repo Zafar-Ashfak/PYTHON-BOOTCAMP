@@ -1,4 +1,5 @@
 # Write a function fibonacci(n) that returns the first n Fibonacci numbers.
+
 print("Program to print first n fibonacci series")
 def fibonacci_series(n):
     a = 0

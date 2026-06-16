@@ -1,4 +1,4 @@
-# Write a function factorial(n) that returns the factorial of a number.
+# Write a function factorial(n) that returns the factorial of a given number.
 
 print("Program to calculate factorial of number n")
 def factorial(n):

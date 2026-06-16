@@ -1,4 +1,4 @@
-# Write a function cube(n) that returns the cube of a number.
+# Write a function cube(n) that returns the cube of a given number.
 
 def cube(n):
     return n * n * n

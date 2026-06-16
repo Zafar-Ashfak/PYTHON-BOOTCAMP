@@ -1,6 +1,6 @@
 # Write a function reverse_string(text) that returns the reversed string.
 
-# Reverse string using a variable
+# Reverse the given string using a variable
 def reverse_string(text):
     rev = ""
     for char in text:
@@ -12,7 +12,7 @@ user_input = input("Enter a text: ")
 print(reverse_string(user_input))
 
 
-# Reverse string using slicing notation
+# Reverse the given string using slicing notation
 def reverse_string(text):
     return text[::-1]
 

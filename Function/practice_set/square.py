@@ -1,4 +1,4 @@
-# Write a function square(n) that returns the square of a number.
+# Write a function square(n) that returns the square of a given number.
 def square(n):
     return n ** 2
 

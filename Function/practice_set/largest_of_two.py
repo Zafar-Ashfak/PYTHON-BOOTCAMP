@@ -1,4 +1,4 @@
-# Write a function largest(a, b) that returns the larger of two numbers.
+# Write a function largest(a, b) that returns the larger of two numbers given by user.
 print("Program to display largest of two numbers")
 def largest(a, b):
     if a > b:

@@ -1,4 +1,5 @@
-# Write a function fibonacci(n) that returns the nth Fibonacci number.
+# Write a function fibonacci(n) that returns the nth Fibonacci number given by user.
+
 def nth_fibonacci(n):
     a = 0
     b = 1
