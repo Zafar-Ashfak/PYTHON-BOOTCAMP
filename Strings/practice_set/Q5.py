@@ -1,5 +1,5 @@
-# letter = "Dear Harry, this python course is nice. Thanks!"
-letter = "Dear Harry, \nthis python course is nice. \nThanks!"
+# letter = "Dear Harry, this python course is amazing. Thanks!"
+letter = "Dear Harry, \nthis python course is amazing. \nThanks!"
 
 print(letter)
 

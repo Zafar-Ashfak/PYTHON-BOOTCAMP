@@ -1,8 +1,8 @@
-sentence = "Hello, I am  Md Ashfaq Alam."
+sentence = "Hello, I am          Md Ashfaq Alam. And I am a senior software engineer."
 
 print(sentence)
-print(f"Double Space occurs at index: {sentence.find("  ")}")
+print(f"White Space occurs at index: {sentence.find("  ")}")
 
-removeSpace = sentence.replace("  ", " ")
-print("\nString after replacing double space with single space")
+removeSpace = sentence.replace("          ", " ")
+print("\nString after replacing white space with single space")
 print(removeSpace)
