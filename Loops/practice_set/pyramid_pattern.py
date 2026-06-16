@@ -1,3 +1,4 @@
+print("Program to print pyramid pattern by user's choice")
 n = int(input("Enter a natural number: "))
 
 for i in range(1, n + 1):

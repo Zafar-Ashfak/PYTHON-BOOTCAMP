@@ -1,7 +1,7 @@
-print("Program to print factorial of a number n")
+print("Program to print factorial of a given number n")
 n = int(input("Enter a number: "))
-fac = 1
+factorial = 1
 for i in range (1, n + 1):
-    fac *= i
+    factorial *= i
 
-print(f"{n}! = {fac}")
+print(f"{n}! = {factorial}")

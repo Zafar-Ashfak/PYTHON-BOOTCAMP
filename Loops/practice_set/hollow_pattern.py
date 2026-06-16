@@ -1,4 +1,4 @@
-print("Program to print hollow pattern program")
+print("Program to print hollow pattern program by user's choice")
 n = int(input("Enter a natural number: "))
 
 for i in range(1, n + 1):

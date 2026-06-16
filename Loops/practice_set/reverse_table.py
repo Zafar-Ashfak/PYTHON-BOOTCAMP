@@ -1,3 +1,5 @@
+# Write a program to print table in reverse order
+
 print("Program to print table in reverse order")
 n = int(input("Enter a natural number: "))
 
