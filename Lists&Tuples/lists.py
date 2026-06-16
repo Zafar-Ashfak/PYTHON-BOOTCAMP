@@ -1,18 +1,17 @@
-
-myList = ["Zafar", 12, 54.67, True, None] # We can store different types of data in python list
+myList = ["Zafar", "Ashfaq", 12, 93, 54.67, 840.343, True, False, None] # We can store different types of data in python list
 
 print(myList)
 
-fruits = ["apple", "banana", "cherry", "kiwi"]
+fruits = ["apple", "banana", "cherry", "kiwi", "guava", "papaya"]
 print(fruits)
 # <<<<<<<<<<<<<<<PYTHON LIST FUNCTIONS>>>>>>>>>>>>>>>>>
 # 1. append function
-fruits.append("mango") # adds an element at the end of the list
+fruits.append("pineapple") # adds an element at the end of the list
 print(fruits)
 
 
 # 2. insert function
-fruits.insert(3, "grapes") # adds an element at the given index in the list
+fruits.insert(4, "grapes") # adds an element at the given index in the list
 print(fruits)
 
 # 3. remove function
