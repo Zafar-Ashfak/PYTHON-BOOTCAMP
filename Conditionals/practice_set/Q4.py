@@ -1,4 +1,4 @@
-username = input("Enter your username: ")
+username = input("Enter your username here: ")
 
 if len(username) < 10:
     print("Your username contains less than 10 characters")

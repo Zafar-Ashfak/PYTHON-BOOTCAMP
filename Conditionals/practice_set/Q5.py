@@ -1,10 +1,10 @@
-animals = ["Cat", "Dog", "Elephant", "Horse", "Lion", "Tiger", "Zebra", "Giraffe", "Monkey"]
+birds = ["Parrot", "Peacock", "Peahen", "Crow", "Sparrow", "Hen", "Cock", "Cuckoo", "Nightingale"]
 
-name = input("Enter an animal name: ")
+name = input("Enter a bird name: ")
 
 name = name.capitalize()
 
-if name in animals:
+if name in birds:
     print(f"Yes, {name} is in the list")
 else:
     print(f"No, {name} is not in the list")

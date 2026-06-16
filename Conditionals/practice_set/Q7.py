@@ -1,6 +1,6 @@
-post = input("Enter a post: ")
+post = input("Enter your post here: ")
 
-if "harry" in post.lower():
-    print("Yes, user is talking about Harry")
+if "zafar" in post.lower():
+    print("Yes, user is talking about zafar")
 else:
-    print("No, user is not talking about Harry")
+    print("No, user is not talking about zafar")
