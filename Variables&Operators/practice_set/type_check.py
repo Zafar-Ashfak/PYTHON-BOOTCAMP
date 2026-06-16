@@ -1,8 +1,7 @@
 num1 = input("Enter an integer number: ")
-num2 = input("Enter an float number: ")
+num2 = input("Enter a float number: ")
 
 check1 = type(num1)
-
 print("Before type casting input type is: ", check1)
 
 num1 = int(num1)

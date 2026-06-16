@@ -4,6 +4,6 @@ num1 = int(input("Enter the dividend: "))
 
 num2 = int(input("Enter the divisor: "))
 
-remiander = num1 % num2
+remainder = num1 % num2
 
-print(num1, "%", num2, "=", remiander)
+print(num1, "%", num2, "=", remainder)
