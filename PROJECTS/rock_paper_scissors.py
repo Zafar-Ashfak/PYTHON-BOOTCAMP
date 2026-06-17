@@ -2,7 +2,7 @@ import random
 
 def main():
     print("🎮 ROCK PAPER SCISSORS GAME 🎮")
-    print("📜 Game Instruction: Enter r for Rock, p for Paper, tand s for Scissors 📜\n")
+    print("📜Game Instruction: Enter r for Rock, p for Paper, tand s for Scissors📜\n")
 
     user_input = input("Enter your choice: ").lower()
 
