@@ -1,4 +1,4 @@
-# Write a program that removes all occurrences of a given word from a file.
+# Write a program that reads the content of a file and removes all occurrences of a given word with space.
 
 def remove_word(filename, matching_word):
     with open(filename, "r") as file:

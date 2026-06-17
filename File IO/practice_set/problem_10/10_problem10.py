@@ -1,11 +1,11 @@
-# Write a program to wipe out the content of a file using python
+# Write a program that reads content of a file and wipe out.
 
-with open("10_problem10.txt", "r") as file:
+with open("wiped_file.txt", "r") as file:
      print(file.read())
 
-with open("10_problem10.txt", "w") as wipe_file:
-    data = wipe_file.write(" ")
+with open("wiped_file.txt", "w") as wiped_file:
+    data = wiped_file.write(" ")
     print("\nContent deleted successfully")
 
-with open("10_problem10.txt", "r") as check_file:
+with open("wiped_file.txt", "r") as check_file:
      print(check_file.read())
