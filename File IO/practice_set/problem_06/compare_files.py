@@ -1,10 +1,10 @@
 # Write a program to check whether two files have exactly the same content.
-def compare_files(file1, file2):
-    with open(file1, "r") as f1:
-        data1 = f1.read()
+def compare_files(f1, f2):
+    with open(f1, "r") as file1:
+        data1 = file1.read()
 
-    with open(file2, "r") as f2:
-        data2 = f2.read()
+    with open(f2, "r") as file2:
+        data2 = file2.read()
 
         return data1 == data2
 
