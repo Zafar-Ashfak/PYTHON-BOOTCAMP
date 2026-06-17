@@ -1,4 +1,4 @@
-# Write a program that reads a file and change its contents into uppercase and append in the same file.
+# Write a program that reads a file contents and change it into uppercase and append in the same file.
 
 with open("aladdin.txt", "r") as file:
     data = file.read()

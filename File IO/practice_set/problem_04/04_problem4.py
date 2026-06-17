@@ -3,7 +3,7 @@
 with open("donkey_story.txt", "r") as file:
     data = file.read()
 
-    new_data = data.replace("Donkey", "Horse")
+    new_data = data.replace("Donkey", "Camel")
 
 with open("donkey_story.txt", "w") as update_file:
     update_file.write(new_data)

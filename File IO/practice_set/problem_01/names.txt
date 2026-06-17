@@ -1,9 +1,8 @@
 Zafar Aftab
-Sachin
+Hemayu Ansari
 Rahbar Hussain
 Sajid Ansari
 Irfan Alam
-Shikha Sharma
 Isha Khan
 Zoya Azmi
 Shaikh Hamna
@@ -17,6 +16,7 @@ Abhishek Sharma
 Jarun Jawed
 Yasmin Perween
 Sidra Fatima
+Taukir Khan
 
 
 
