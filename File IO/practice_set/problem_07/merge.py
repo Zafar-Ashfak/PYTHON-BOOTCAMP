@@ -1,6 +1,6 @@
 # Write a program to merge the contents of two files into a third file.
 
-def merge(file1, file2, file3):
+def merge_files(file1, file2, file3):
     with open(file1, "r") as f1:
         data1 = f1.read()
 
@@ -20,6 +20,6 @@ def main():
     file2 = "file2.txt"
     file3 = "file3.txt"
 
-    merge(file1, file2, file3)
+    merge_files(file1, file2, file3)
 
 main()
