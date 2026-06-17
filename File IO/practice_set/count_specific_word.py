@@ -1,7 +1,7 @@
-# Write a function that takes a filename and a word and returns how many times that word appears.
+# Write a function that takes a filename and a word as parameters and returns how many times that word appears.
 def count_specific_word(filename, specific_word):
     with open(filename, "r") as file:
-        data = file.read().lower().split() # converts into list
+        data = file.read().lower().split() # converts file contents into a list
 
         specific_word = specific_word.lower()
 
@@ -14,7 +14,7 @@ def count_specific_word(filename, specific_word):
 
 
 def main():
-    print("Program that takes a filename and a word and returns how many times that word appears")
+    print("Program to count how many times a word appears in a file")
     specific_word = "python"
     filename = "python.txt"
     res = count_specific_word(filename, specific_word)

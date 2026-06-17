@@ -1,4 +1,4 @@
-# Write a function that takes a filename and returns the number of vowels in that file.
+# Write a function that takes a filename as parameter and returns the number of vowels in that file.
 def count_vowels(filename):
     with open(filename, "r") as file:
         data = file.read().lower()
