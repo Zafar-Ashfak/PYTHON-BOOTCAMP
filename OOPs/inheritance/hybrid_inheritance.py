@@ -62,6 +62,33 @@ class Shark(Fish):
         print("Breathe in the water through gills")
 
 
+
+class Bird(Animal):
+    def __init__(self, wings, skin_color):
+        super().__init__(skin_color)
+        self.wings = wings
+
+    def fly(self):
+        print("Flies in the sky")
+
+    def habitat(self):
+        print("Lives on the branches of the tree")
+
+
+class Eagle(Bird):
+    def __init__(self, wings, skin_color):
+        super().__init__(wings, skin_color)
+
+    def strength(self):
+        print("Can fly high in the sky")
+
+    def eat(self):
+        print("Eat flesh of dead animals")
+
+    def breathe(self):
+        print("Breathe in the air")
+
+
 def main():
     # Creating object of class Mustang
     m1 = Mustang(4, "Bay, Black and Chestnut")
@@ -85,6 +112,19 @@ def main():
     s1.habitat()
     s1.eat()
     s1.breathe()
+
+    # Creating object of class Shark
+    e1 = Eagle(2, "Black")
+    print("\n\nAnimal name:  Eagle")
+    print(f"Skin color: {e1.skin_color}")
+    print(f"Wings: {e1.wings}")
+    e1.strength()
+    e1.fly()
+    e1.habitat()
+    e1.eat()
+    e1.breathe()
+
+
 
 
 
