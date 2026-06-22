@@ -36,6 +36,31 @@ class Mustang(Horse):
     def strength(self):
         print("Fastest and strongest horse in the breed")
 
+class Fish(Animal):
+    def __init__(self, fins, skin_color):
+        super().__init__(skin_color)
+        self.fins = fins
+
+    def swim(self):
+        print("Swims in the water")
+
+    def habitat(self):
+        print("Lives in the water")
+
+class Shark(Fish):
+    def __init__(self, teeth, fins, skin_color):
+        super().__init__(fins, skin_color)
+        self.teeth = teeth
+
+    def strength(self):
+        print("Bigger and Stronger fish in the breed")
+
+    def eat(self):
+        print("Eat small fish")
+
+    def breathe(self):
+        print("Breathe in the water through gills")
+
 
 def main():
     # Creating object of class Mustang
@@ -48,6 +73,19 @@ def main():
     m1.habitat()
     m1.eat()
     m1.breathe()
+
+    # Creating object of class Shark
+    s1 = Shark(300, 8, "Gray")
+    print("\n\nAnimal name:  Shark")
+    print(f"Skin color: {s1.skin_color}")
+    print(f"Teeth: {s1.teeth}")
+    print(f"Fins: {s1.fins}")
+    s1.strength()
+    s1.swim()
+    s1.habitat()
+    s1.eat()
+    s1.breathe()
+
 
 
 main()
