@@ -2,15 +2,23 @@
 # Animal -> Fish -> Shark
 # Animal -> Bird -> Eagle, Duck
 
-class Animal:
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
     def __init__(self, skin_color):
         self.skin_color = skin_color
 
+    @abstractmethod
     def eat(self):
-        print("Eats")
+        pass
 
+    @abstractmethod
     def breathe(self):
-        print("Breathes")
+        pass
+
+    @abstractmethod
+    def habitat(self):
+        pass
 
 class Horse(Animal):
     def __init__(self, leg, skin_color):
@@ -24,10 +32,10 @@ class Horse(Animal):
         print("Lives in the horse barn")
 
     def eat(self):
-        print("Eat grasses, plants and branches of the tree")
+        print("Eat grasses, plants and tree branches")
 
     def breathe(self):
-        print("Breathe in the air")
+        print("Breathes in the air")
 
 class Mustang(Horse):
     def __init__(self, leg, skin_color):
@@ -56,10 +64,10 @@ class Shark(Fish):
         print("Bigger and Stronger fish in the breed")
 
     def eat(self):
-        print("Eat small fish")
+        print("Eats small fish")
 
     def breathe(self):
-        print("Breathe in the water through gills")
+        print("Breathes in the water through gills")
 
 
 
@@ -86,7 +94,28 @@ class Eagle(Bird):
         print("Eat flesh of dead animals")
 
     def breathe(self):
+        print("Breathes in the air")
+
+class Swimmer:
+    def swim(self):
+        print("Swims in the water.")
+
+class Duck(Bird, Swimmer):
+    def __init__(self, wings, skin_color):
+        Bird.__init__(self,wings, skin_color)
+
+
+    def strength(self):
+        print("Can swim and fly")
+
+    def eat(self):
+        print("Eat small fishes")
+
+    def breathe(self):
         print("Breathe in the air")
+
+    def habitat(self):
+        print("Lives near ponds, lakes, and wetlands")
 
 
 def main():
@@ -102,8 +131,8 @@ def main():
     m1.breathe()
 
     # Creating object of class Shark
-    s1 = Shark(300, 8, "Gray")
-    print("\n\nAnimal name:  Shark")
+    s1 = Shark(300, 8, "Brown, Olive and Gray")
+    print("\n\nAnimal name: Shark")
     print(f"Skin color: {s1.skin_color}")
     print(f"Teeth: {s1.teeth}")
     print(f"Fins: {s1.fins}")
@@ -114,8 +143,8 @@ def main():
     s1.breathe()
 
     # Creating object of class Shark
-    e1 = Eagle(2, "Black")
-    print("\n\nAnimal name:  Eagle")
+    e1 = Eagle(2, "Pink, Yellowish-gray, or Bluish-gray")
+    print("\n\nAnimal name: Eagle")
     print(f"Skin color: {e1.skin_color}")
     print(f"Wings: {e1.wings}")
     e1.strength()
@@ -125,7 +154,17 @@ def main():
     e1.breathe()
 
 
-
+    # Creating object of class Duck
+    d1 = Duck(2, "Light beige, Yellowish, or Pale white")
+    print("\n\nAnimal name: Duck")
+    print(f"Skin color: {d1.skin_color}")
+    print(f"Wings: {d1.wings}")
+    d1.strength()
+    d1.fly()
+    d1.swim()
+    d1.habitat()
+    d1.eat()
+    d1.breathe()
 
 
 main()
