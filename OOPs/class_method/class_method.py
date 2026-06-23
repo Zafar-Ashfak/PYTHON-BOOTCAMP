@@ -1,11 +1,13 @@
 class Person:
     name = "anonymous"
 
+    # def change_name(self, name):
+    #     # self.name = name      # creates a new instance
+    #     # Person.name = name    # point to the class attribute
+    #     self.__class__.name = name  # point to the class attribute
+
     @classmethod
     def change_name(cls, name):
-        # self.name = name      # creates a new instance
-        # Person.name = name    # point to the class attribute
-        # self.__class__.name = name  # point to the class attribute
         cls.name = name
 
 def main():
