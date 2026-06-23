@@ -6,6 +6,10 @@ class Complex:
     def show_complex(self):
         print(f"{self.real} + {self.img}i")
 
+    # String dunder method for object representation
+    def __str__(self):
+        return f"{self.real} + {self.img}i"
+
     # ****** Normal function ******
     # def add(self, num2):
     #     new_real = self.real + num2.real
@@ -20,14 +24,17 @@ class Complex:
 
 def main():
     c1 = Complex(3, 5)
-    c1.show_complex()
+    # c1.show_complex()
+    print(c1)
 
     c2 = Complex(4, 12)
-    c2.show_complex()
+    # c2.show_complex()
+    print(c2)
 
     print("--------")
     # c3 = c1.add(c2)
     c3 = c1 + c2
-    c3.show_complex()
+    # c3.show_complex()
+    print(c3)
 
 main()
