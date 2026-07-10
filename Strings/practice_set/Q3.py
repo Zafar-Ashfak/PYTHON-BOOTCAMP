@@ -1,3 +1,5 @@
+# Write a Python program to remove multiple consecutive white spaces from a given string and replace them with a single space.
+
 sentence = "Hello, I am          Md Ashfaq Alam. And I am a senior software engineer."
 
 print(sentence)
