@@ -1,3 +1,5 @@
+# Write a Python program to print factorial of a given number
+
 print("Program to print factorial of a given number n")
 n = int(input("Enter a number: "))
 factorial = 1
