@@ -1,3 +1,5 @@
+# Write a Python program that prints half pyramid star pattern program
+
 print("Program to print half pyramid by user's choice")
 n = int(input("Enter a natural number: "))
 
