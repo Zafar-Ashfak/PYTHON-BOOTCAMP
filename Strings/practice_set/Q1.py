@@ -1,3 +1,5 @@
+# Write a Python program that accepts a user's name as input, greets the user,
+# and prints a personalized letter along with the current date and time.
 import datetime
 
 name = input("Enter your name: ")
