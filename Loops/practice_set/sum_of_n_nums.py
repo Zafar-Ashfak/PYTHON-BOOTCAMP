@@ -1,4 +1,4 @@
-# Write a Python program that prints first n natural number
+# Write a Python program to calculate the sum of the first n natural numbers
 
 n = int(input("Enter a natural number here: "))
 
