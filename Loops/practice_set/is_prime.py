@@ -1,3 +1,5 @@
+# Write a Python program to determine whether a given natural number is prime or not prime.
+
 print("Program to print whether a given number is prime or not")
 n = int(input("Enter a natural number: "))
 
