@@ -1,3 +1,4 @@
+# Write a Python program that prints first n natural number
 
 n = int(input("Enter a natural number here: "))
 
