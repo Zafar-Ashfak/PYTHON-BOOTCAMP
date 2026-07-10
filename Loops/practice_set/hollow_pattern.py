@@ -1,3 +1,5 @@
+# Write a program that prints hollow pattern program for n height given by user
+
 print("Program to print hollow pattern program by user's choice")
 n = int(input("Enter a natural number: "))
 
