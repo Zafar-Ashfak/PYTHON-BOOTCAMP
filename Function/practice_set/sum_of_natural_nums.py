@@ -1,5 +1,3 @@
-# Write a function sum_natural(n) that returns the sum of the first n natural numbers.
-
 def sum_natural(n):
     s = 0
     for i in range(1, n + 1):

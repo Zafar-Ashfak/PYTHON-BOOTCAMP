@@ -1,4 +1,3 @@
-# Write a function sum_of_even_odd_digits(num) and print the sum of even and odd numbers
 def sum_of_even_odd_digits(num):
     even = 0
     odd = 0
