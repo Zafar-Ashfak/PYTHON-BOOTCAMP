@@ -1,5 +1,3 @@
-# Write a program to check if a given number is even or odd
-
 def iseven(n):
     if n % 2 == 0:
         return True
