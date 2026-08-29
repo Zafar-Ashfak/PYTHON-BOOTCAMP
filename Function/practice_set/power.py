@@ -1,5 +1,3 @@
-# Write a function power(base, exponent) that returns base raised to the power exponent by user.
-
 def power(base, exponent):
     res = 1
     for i in range(exponent):

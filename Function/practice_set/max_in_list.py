@@ -1,5 +1,3 @@
-# Write a program to find the maximum element in a list using recursion
-
 def getmax(nums, n):
     # Base Case
     if n == 0:
