@@ -1,3 +1,5 @@
+# Write a function to check if a given string is palindrome or not.
+
 def is_palindrome_string(text):
     lp = 0
     rp = len(text) - 1
