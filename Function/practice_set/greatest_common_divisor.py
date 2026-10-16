@@ -1,3 +1,5 @@
+# Write a Python program to find out greatest common divisor of two numbers
+
 def gcd(a, b):
     while b != 0:
         a, b = b, a % b
