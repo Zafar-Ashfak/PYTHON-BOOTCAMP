@@ -1,11 +1,3 @@
-# Here are more abstract method ideas you can choose from:
-
-# Method	Purpose
-# make_sound()	Animal's sound (Bark, Meow, Roar)
-# move()	How it moves (Run, Fly, Swim)
-# eat()	How it eats
-# sleep()	Sleeping behavior
-
 from abc import ABC, abstractmethod
 class Animal(ABC):
     def __init__(self):
