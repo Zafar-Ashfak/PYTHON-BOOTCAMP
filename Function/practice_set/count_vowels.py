@@ -1,7 +1,7 @@
 # Write a function count_vowels(text) that returns the number of vowels in a string.
 
 # Simple Approach
-def count_vowels(text):
+def count_vowels(text : str) -> int:
     count = 0
     text = text.lower()
     for i in text:
@@ -12,7 +12,7 @@ def count_vowels(text):
 
 
 # Optimized Approach
-def opt_count_vowels(text):
+def opt_count_vowels(text : str) -> int:
     count = 0
     text = text.lower()
     for i in text:
