@@ -1,5 +1,5 @@
 # Take Something Return Nothing
-def sub(num1, num2): # Function Definition
+def sub(num1 : int, num2 : int): # Function Definition
     print(f"{num1} - {num2} = {num1 - num2}")
 
 a = int(input("Enter the first number: "))
