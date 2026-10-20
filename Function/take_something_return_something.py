@@ -1,5 +1,5 @@
 # Take Something Return Something
-def division(num1, num2):
+def division(num1 : int, num2: int):
     if num2 == 0:
         return "Cannot divide by zero"
 
