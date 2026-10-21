@@ -1,6 +1,6 @@
 # Write a function palindrome(n) that checks if a given number is palindrome or not.
 
-def palindrome(n):
+def palindrome(n : int) -> int:
     org = n
     rev = 0
     while n > 0:
