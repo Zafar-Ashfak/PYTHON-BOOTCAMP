@@ -1,6 +1,6 @@
 # Write a Python program to check if a number is even or odd
 
-def iseven(n):
+def iseven(n : int) -> bool:
     if n % 2 == 0:
         return True
     else:
