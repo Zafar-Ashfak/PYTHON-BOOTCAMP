@@ -1,6 +1,6 @@
 # Write a function fibonacci(n) that returns the nth Fibonacci number given by user.
 
-def nth_fibonacci(n):
+def nth_fibonacci(n : int) -> int:
     a = 0
     b = 1
 
