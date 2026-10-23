@@ -1,5 +1,5 @@
 # Write a Python program to calculate the power of the number n
-def power(base, exponent):
+def power(base : int, exponent : int) -> int:
     res = 1
     for i in range(exponent):
         res *= base
