@@ -1,7 +1,7 @@
 # Write a function largest(a, b) that returns the larger of two numbers given by user.
 
 print("Program to display largest of two numbers")
-def largest(a, b):
+def largest(a : int, b : int) -> int:
     if a > b:
         return a
     else:
