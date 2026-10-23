@@ -1,6 +1,8 @@
 # Write a Python program to find the maximum element in a list using recursion
+from typing import List
 
-def getmax(nums, n):
+
+def getmax(nums : List[int], n : int) -> int:
     # Base Case
     if n == 0:
         return nums[0]
