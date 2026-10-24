@@ -1,5 +1,5 @@
 # Write a program to calculate factorial of a number using recursion
-def factorial(n):
+def factorial(n : int) -> int:
     # Base Case
     if n == 0 or n == 1:
         return 1
