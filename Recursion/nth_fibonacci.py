@@ -1,5 +1,5 @@
 # Write a program to generate the nth Fibonacci number
-def fibonacci(n):
+def fibonacci(n : int) -> int:
     # Base Case
     if n == 0:
         return 0
