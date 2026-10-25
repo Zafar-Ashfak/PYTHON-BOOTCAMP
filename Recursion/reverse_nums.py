@@ -1,5 +1,5 @@
 # Write a program to print numbers from n to 1 using recursion
-def nums_reverse(n):
+def nums_reverse(n : int):
     # Base Case
     if n == 0:
         return
