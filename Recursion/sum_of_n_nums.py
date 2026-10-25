@@ -1,5 +1,5 @@
 # Write a program to calculate the sum of first n natural numbers using recursion
-def sum_of_nums(n):
+def sum_of_nums(n : int) -> int:
     s = 0
     # Base Case
     if n == 0:
