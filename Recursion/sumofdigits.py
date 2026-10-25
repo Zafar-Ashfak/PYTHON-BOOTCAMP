@@ -1,5 +1,5 @@
 # Write a program to calculate the sum of digits of a number using recursion
-def sum_of_digits(n):
+def sum_of_digits(n : int) -> int:
     # Base Case
     if n == 0:
         return 0
